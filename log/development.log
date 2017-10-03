@@ -6650,3 +6650,4 @@ Started GET "/assets/my_movie-7f82cc204be05223276b5f097186ca501c67cdab35e1b60015
 Completed 200 OK in 119ms (Views: 28.3ms | ActiveRecord: 31.0ms)
 
 
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ccv/sites/rails/stark-hollows-28695/config/initializers/callback_terminator.rb:1)
