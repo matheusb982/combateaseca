@@ -20,6 +20,16 @@ gem 'coffee-rails'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap'
 
+gem 'ransack'
+
+gem 'devise-i18n'
+
+gem 'i18n_alchemy'
+
+gem 'rails-i18n', '~> 5.0.0'
+
+gem "nested_form"
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'devise'

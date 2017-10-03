@@ -1,0 +1,20 @@
+<!--start container-->
+<div class="container">
+  <div class="section">
+      <div id="striped-table">
+        <h4 class="header"></h4>
+        <div class="row">
+          <% unless @recipient %>
+            <div class="col s12 m4 l3">
+              <%= link_to "Novo",new_resource_path, html_options = {class: "btn cyan waves-effect waves-light"} %>
+            </div>
+          <% end %>
+          <div class="col s12 m8 l9">
+            <%= render "table", :collection => collection  %>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<%#= will_paginate collection %>
