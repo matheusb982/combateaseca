@@ -7807,3 +7807,152 @@ Processing by Api::V1::ItemsController#index as JSON
 Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 2.3ms)
 
 
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/matheus/sites/rails/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 20:26:00 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (607.6ms)
+Completed 200 OK in 721ms (Views: 720.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-a5ed5c870a228575ac30e418c95f5c06b058f0257bd85dd209413c221a001028.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/font-awesome.self-c22050b989e6c1dda9f233075512bfd7290f5d3aae293d3adddca31cbbf74dce.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/application.self-129932ab10f1d1e5a4621657c626d393bb0718716393ddba5dc5b25d244bd3d9.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/magnific-popup.self-f9313bde42a1ad1bdfbd96877827775b446046c7a2b50f8e6916e6d4dec5654c.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/opensans-web-font.self-0831df704c54b41288ed581e2608e2e76208046528006090deed8596bb8020be.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/nexa-web-font.self-6bfbff6d20d7f6cb35d528544d72c969de69da1919bab029bffbf8c9c13c8bb2.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/responsive.self-337a18b9a5debf960ca17df62da654fb8ba9eef03d230ba4c8645044a5269049.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/plugins.self-a4a04d21600e73e538441d0fba92d256c65212c54035c67c6e06fdea3f1b6177.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/style.self-b047a38fd477555b80abc20497a270b683d3af562fdaf98f60cd71391e3a9035.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_all_items.self-8cac24d98b55dd0b17d1206986c4711303b84ecb963e5b812273f61ed7864ed5.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_Item.self-446cf0a07a51840a4d988eac8ff1eba63ddef367aed5fcd14edd8342109482d1.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_header.self-ee12fff20b56356e7d426c7e524510cfc7935c6ab0f5b3d5fc2a56e92d36e4d7.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_main.self-fa87628f2e3ff785cfeaba9423f28c84162cad1eb03515ae021937766b236912.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_menu.self-b19f6acd2c6466100229afe7d907c9589f0f22bb3d02d9c663537a905dbad29f.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/_new_item.self-24e6c938187f61fa0e8768d08040f6d6d9d1955b6cfbff39e162cbb1c295d71d.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/cities/_body.self-3cb8f9bf5021c50335937c8bc12894a976f234a3d3072cf8a73ee8fd61b7ede4.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/cities/_all_items.self-f445339e91b92092b4e43b2fdac056fd72fbec78a505a9180e2eae9a209d805f.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/cities/_Item.self-f89c435391f8ab9fd21d773f330a8fb47f4ea9d3be21d174cf6aae7a094412e2.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/cities/_header.self-a5f6045204828fd44298ce13ef8c9d7c14e6062e6969751040e36456437d4271.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/cities/_main.self-cfc17fadc9f9fdd37d7b6384fcba57d7d7488c037ee508eea08661376fb6e6ec.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/cities/_new_item.self-545208d66ddae199570074ff91c1a1cc886f95331232ddb0cd0a47eca6e2a379.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/notice/_all_notices.self-1fe61fda81ed483d64fc79cdf550600cc33a32d360c7962986ee6a04e02fd358.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:01 -0300
+Started GET "/assets/components/notice/_notice.self-280f50405887ce9fa99ec8eda6f8f42a9a87e14aad1c65715c82035a7dfbbab2.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/components/notice/_notices_item.self-c90a52084864b1717e224c6f4deb6ff0fb29774353c88b326dd4d5b00989daa8.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/jquery.magnific-popup.self-521bfecbee0e741b365b88940d6214c4d74b4500e4073de2decbdc9fbabcfd78.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/main.self-4b15d77960f1a99535daef860e56395aa0a3e41e3bdd29c3d82f109e65646998.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/plugins.self-527e39d76c6eaf33d540cf347410f76f89813f323c123980a15150ae8154ccea.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/vendor/bootstrap.min.self-f2d64b74536a49f843b022431e37325973468a71c9b362343deb0b6c582e5ba0.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/vendor/jquery-1.11.2.min.self-cc83565074b3fa7f2283f7f4d56b90ad171ede87008448ed5d2e91c50575bed1.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/vendor/modernizr-2.8.3-respond-1.4.2.min.self-449b0a850e39b645bfe220b51afebd7a93567fc3aa47b4964a2efe08a22a187f.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/application.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/all/opensans-light.woff2" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/all/nexa_light.woff2" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/all/nexa_bold.woff2" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/header-bg.jpg" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (1.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 27ms (Views: 4.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/portfolio-bg.jpg" for 127.0.0.1 at 2017-10-03 20:26:02 -0300
+Started GET "/report/new" for 127.0.0.1 at 2017-10-03 20:26:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/report/new"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/reports/new" for 127.0.0.1 at 2017-10-03 20:26:13 -0300
+Processing by ReportsController#new as HTML
+  Rendering crud/new.html.erb within layouts/application
+  Rendered crud/_errors.html.erb (0.6ms) [cache miss]
+  Rendered reports/_form.html.erb (677.1ms) [cache miss]
+  Rendered crud/new.html.erb within layouts/application (680.0ms)
+Completed 200 OK in 764ms (Views: 747.6ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/all/opensans-light.woff2" for 127.0.0.1 at 2017-10-03 20:26:14 -0300
+Started POST "/reports" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Processing by ReportsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BnWlu7u/qH2IMv0lF9jfW7JjAUhCcsNHE6YzJBtLfxd7oDy0f0Xv65LmKQ3Lv9OVVDbrKMqdVNxxPZeRanRptg==", "report"=>{"name"=>"asd", "description"=>"adfgsfdg", "city"=>"sasad"}, "button"=>""}
+Unpermitted parameters: :utf8, :authenticity_token, :button
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "reports" ("name", "description", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "asd"], ["description", "adfgsfdg"], ["city", "sasad"], ["created_at", "2017-10-03 23:26:18.132688"], ["updated_at", "2017-10-03 23:26:18.132688"]]
+  [1m[35m (22.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/reports/4
+Completed 302 Found in 40ms (ActiveRecord: 22.8ms)
+
+
+Started GET "/reports/4" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"4"}
+Redirected to http://localhost:3000/reports
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Processing by ReportsController#index as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/opensans-light.woff2" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Started GET "/assets/all/nexa_light.woff2" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Started GET "/assets/all/nexa_bold.woff2" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Started GET "/assets/loading.gif" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Started GET "/assets/header-bg.jpg" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+Processing by Api::V1::ItemsController#index as JSON
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 20ms (Views: 12.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/portfolio-bg.jpg" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
