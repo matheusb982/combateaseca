@@ -3,7 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1.0'
-gem 'sqlite3'
+#gem 'sqlite3'
+gem 'pg'
+gem 'taps'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -37,3 +39,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'responders'
 gem 'react-rails'
+
+gem 'inherited_resources'
+
+gem 'simple_form'
+
+gem 'country_select'

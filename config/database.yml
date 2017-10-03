@@ -1,12 +1,36 @@
-development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+# development:
+#   adapter: sqlite3
+#   database: db/development.sqlite3
+#   pool: 5
+#   timeout: 5000
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  timeout: 5000
+  host: localhost
+  username: appname
+  password: ruby
+
+development:
+  <<: *default
+  database: deutsch_development
+
+
+# test:
+#   adapter: sqlite3
+#   database: db/test.sqlite3
+#   pool: 5
+#   timeout: 5000
 
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
-  pool: 5
-  timeout: 5000
+  <<: *default
+  database: deutsch_test
 
+production:
+  <<: *default
+  database: deutsch_production
+  username: appname
+  password: ruby

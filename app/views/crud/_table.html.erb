@@ -1,0 +1,21 @@
+
+<table class="table table-bordered table-striped table-condensed table-hover">
+  <thead>
+    <tr>
+      <tr>
+        <th>Name</th>
+        <th><%t 'options' %></th>
+      </tr>
+    </tr>
+  </thead>
+  <tbody>
+    <% collection.each do |resource| %><tr>
+      <tr>
+        <td><%= resource %></td>
+        <td>
+          <%= render "actions", :resource => resource %>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
