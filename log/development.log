@@ -7956,3 +7956,33 @@ Completed 200 OK in 20ms (Views: 12.7ms | ActiveRecord: 0.6ms)
 
 
 Started GET "/assets/portfolio-bg.jpg" for 127.0.0.1 at 2017-10-03 20:26:18 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+  [1m[35m (9.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5176782214261900200);[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReports (20171003223204)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (143.6ms)[0m  [1m[35mCREATE TABLE "reports" ("id" bigserial primary key, "name" character varying, "description" character varying, "city" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171003223204"]]
+  [1m[35m (33.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5176782214261900200)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 21:39:44 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (32229.1ms)
+Completed 200 OK in 32541ms (Views: 32535.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 21:40:17 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-03 21:40:17 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:40:22 -0300
