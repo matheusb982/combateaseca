@@ -7986,3 +7986,82 @@ Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 
 Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
 Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
 Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:40:22 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/matheus/sites/rails/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 21:55:57 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5004.1ms)
+Completed 200 OK in 5448ms (Views: 5445.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-61d58d158f65e85a622d819073112e6d1d328c853dfff43493d0a2a22c02049b.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/js/map.self-1f4716ddbdd186e7ee21416cb372b979f9f2932d3eace16681fb9376f963d0de.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/js/jquery.quicksand.self-70953378e463c0cb9d9494f38b047f5fd299f641dc391692c2c4cfc1f686edf0.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/images/logo-c6487ea8eb1f5b3f8b8283618f67934a0789cd433713a62fee878fd2da1705c8.png" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/images/short-82142a90b067cb3b2b0b2f6636734030c30036b64c61f691d24abfa47fdd88dc.png" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/7-c86f28adb389262b33e3aa28b8ade84a671187d82e2a249c00d3b13554777c68.jpg" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/images/blog1-03541bb2d651b0a000a970e2dd63b2c86c345cbc7770332e1dfabbc4ad70f0be.jpg" for 127.0.0.1 at 2017-10-03 21:56:03 -0300
+Started GET "/assets/images/blog2-4e3a38d9fa8354c4eb8412f375a6d6f8c984bf25c8ae54c426a5d7f980a29dce.jpg" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/images/blog3-629fef162ee0c5fe404ae2881a60f6113b515e24d02ff03deacd3249879f8010.jpg" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 21:56:04 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:56:05 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 21:56:08 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-a5ed5c870a228575ac30e418c95f5c06b058f0257bd85dd209413c221a001028.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/font-awesome.self-c22050b989e6c1dda9f233075512bfd7290f5d3aae293d3adddca31cbbf74dce.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/application.self-129932ab10f1d1e5a4621657c626d393bb0718716393ddba5dc5b25d244bd3d9.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/css/patros.self-61d58d158f65e85a622d819073112e6d1d328c853dfff43493d0a2a22c02049b.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_Item.self-446cf0a07a51840a4d988eac8ff1eba63ddef367aed5fcd14edd8342109482d1.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_all_items.self-8cac24d98b55dd0b17d1206986c4711303b84ecb963e5b812273f61ed7864ed5.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_main.self-fa87628f2e3ff785cfeaba9423f28c84162cad1eb03515ae021937766b236912.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_new_item.self-24e6c938187f61fa0e8768d08040f6d6d9d1955b6cfbff39e162cbb1c295d71d.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/cities/_Item.self-f89c435391f8ab9fd21d773f330a8fb47f4ea9d3be21d174cf6aae7a094412e2.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_menu.self-b19f6acd2c6466100229afe7d907c9589f0f22bb3d02d9c663537a905dbad29f.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/cities/_all_items.self-f445339e91b92092b4e43b2fdac056fd72fbec78a505a9180e2eae9a209d805f.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/_header.self-ee12fff20b56356e7d426c7e524510cfc7935c6ab0f5b3d5fc2a56e92d36e4d7.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/cities/_header.self-a5f6045204828fd44298ce13ef8c9d7c14e6062e6969751040e36456437d4271.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/cities/_main.self-cfc17fadc9f9fdd37d7b6384fcba57d7d7488c037ee508eea08661376fb6e6ec.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/cities/_body.self-3cb8f9bf5021c50335937c8bc12894a976f234a3d3072cf8a73ee8fd61b7ede4.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/cities/_new_item.self-545208d66ddae199570074ff91c1a1cc886f95331232ddb0cd0a47eca6e2a379.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/notice/_all_notices.self-1fe61fda81ed483d64fc79cdf550600cc33a32d360c7962986ee6a04e02fd358.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/notice/_notice.self-280f50405887ce9fa99ec8eda6f8f42a9a87e14aad1c65715c82035a7dfbbab2.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/components/notice/_notices_item.self-c90a52084864b1717e224c6f4deb6ff0fb29774353c88b326dd4d5b00989daa8.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/js/jquery.quicksand.self-70953378e463c0cb9d9494f38b047f5fd299f641dc391692c2c4cfc1f686edf0.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/js/map.self-1f4716ddbdd186e7ee21416cb372b979f9f2932d3eace16681fb9376f963d0de.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/application.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2017-10-03 21:56:39 -0300
+Started GET "/assets/images/logo-c6487ea8eb1f5b3f8b8283618f67934a0789cd433713a62fee878fd2da1705c8.png" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/short-82142a90b067cb3b2b0b2f6636734030c30036b64c61f691d24abfa47fdd88dc.png" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/7-c86f28adb389262b33e3aa28b8ade84a671187d82e2a249c00d3b13554777c68.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/blog1-03541bb2d651b0a000a970e2dd63b2c86c345cbc7770332e1dfabbc4ad70f0be.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/blog2-4e3a38d9fa8354c4eb8412f375a6d6f8c984bf25c8ae54c426a5d7f980a29dce.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/blog3-629fef162ee0c5fe404ae2881a60f6113b515e24d02ff03deacd3249879f8010.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
