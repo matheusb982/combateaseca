@@ -1,11 +1,9 @@
-<div class="row">
-  <div class="input-field col s12">
-        <%= link_to edit_resource_url(resource.id), html_options = {class: "btn-floating waves-effect waves-light left"} do %>
-            <i class="mdi-content-create"></i>
-        <%end %>
 
-        <%= button_to resource_url(:id => resource.id), method: :delete, class: "btn-floating waves-effect waves-light red" do %>
-            <i class="mdi-content-clear"></i>
+  <div class="button-inline">
+        <%= button_to  edit_resource_url(resource.id), method: :get, class: "btn btn-xs btn-custom-rails" do %>
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+        <% end %>
+        <%= button_to resource_url(:id => resource.id), method: :delete, class: "btn btn-xs btn-custom-rails" do %>
+            <i class="fa fa-trash" aria-hidden="true"></i>
         <% end %>
   </div>
-</div>

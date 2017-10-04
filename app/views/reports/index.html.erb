@@ -1,20 +1,8 @@
-<!--start container-->
-<div class="container">
-  <div class="section">
-      <div id="striped-table">
-        <h4 class="header"></h4>
-        <div class="row">
-          <% unless @recipient %>
-            <div class="col s12 m4 l3">
-              <%= link_to "Novo",new_resource_path, html_options = {class: "btn cyan waves-effect waves-light"} %>
-            </div>
-          <% end %>
-          <div class="col s12 m8 l9">
-            <%= render "table", :collection => collection  %>
-          </div>
-        </div>
-      </div>
+<%= render "table", :collection => collection  %>
+
+<div class="col-sm-3 col-xs-6 height-contact-element ">
+  <div class="form-group">
+    <%= button_to "NOVA", new_resource_path,
+      :class => "btn btn-md btn-custom btn-noborder-radius", :method => :get %>
   </div>
 </div>
-
-<%#= will_paginate collection %>
