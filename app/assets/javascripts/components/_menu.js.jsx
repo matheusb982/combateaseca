@@ -8,9 +8,10 @@ var Menu = React.createClass({
             </div>
 
             <ul className="nav navbar-nav">
-              <li><a href='/welcome'>Home</a></li>
+              <li><a href='/admin'>Home</a></li>
               <li><a href='/site'>Notícias</a></li>
               <li><a href='/city'>Cidades Com O Projeto</a></li>
+              <li><a href='/welcome'>Site</a></li>
             </ul>
             <ul className="nav navbar-nav navbar-right">
               <li><a href="/users/edit"><span className="glyphicon glyphicon-user"></span> Editar </a></li>

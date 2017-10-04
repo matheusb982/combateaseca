@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get "welcome/gallery" => "welcome#gallery", as: "gallery"
   get "welcome/notice" => "welcome#notice", as: "notice"
   resources :city, :only => [:index]
+  resources :admin, :only => [:index]
   resources :site, :only => [:index]
   resources :reports
 

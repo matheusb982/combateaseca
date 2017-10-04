@@ -9339,3 +9339,504 @@ Completed 200 OK in 232ms (Views: 226.9ms | ActiveRecord: 0.0ms)
 Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 192.168.0.2 at 2017-10-04 00:06:35 -0300
 Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 >>>>>>> Stashed changes
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/matheus/sites/rails/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/welcome" for 127.0.0.1 at 2017-10-04 09:20:09 -0300
+  [1m[35m (30.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___2915722530180207242_40115880 at /home/matheus/sites/rails/combateaseca/app/views/layouts/application.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_application_html_erb___2915722530180207242_40115880 at /home/matheus/sites/rails/combateaseca/app/views/layouts/application.html.erb:14)
+  Rendered shared/_menu.html.erb (3.5ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 3417ms (Views: 3414.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-a5ed5c870a228575ac30e418c95f5c06b058f0257bd85dd209413c221a001028.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/font-awesome.self-c22050b989e6c1dda9f233075512bfd7290f5d3aae293d3adddca31cbbf74dce.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/application.self-881ab0321ddeea1e4ee2b2351c1e3af84c9f28f6e94a0035b9597013ccadb42d.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/css/patros.self-f1ba00e82dcbb03403f6b5aa97c88334e02f5731a67a8e4566bdeb6deed72053.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_Item.self-446cf0a07a51840a4d988eac8ff1eba63ddef367aed5fcd14edd8342109482d1.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_all_items.self-8cac24d98b55dd0b17d1206986c4711303b84ecb963e5b812273f61ed7864ed5.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_header.self-ee12fff20b56356e7d426c7e524510cfc7935c6ab0f5b3d5fc2a56e92d36e4d7.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_menu.self-b19f6acd2c6466100229afe7d907c9589f0f22bb3d02d9c663537a905dbad29f.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_new_item.self-24e6c938187f61fa0e8768d08040f6d6d9d1955b6cfbff39e162cbb1c295d71d.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/_main.self-fa87628f2e3ff785cfeaba9423f28c84162cad1eb03515ae021937766b236912.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/cities/_all_items.self-f445339e91b92092b4e43b2fdac056fd72fbec78a505a9180e2eae9a209d805f.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/cities/_Item.self-f89c435391f8ab9fd21d773f330a8fb47f4ea9d3be21d174cf6aae7a094412e2.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/cities/_body.self-3cb8f9bf5021c50335937c8bc12894a976f234a3d3072cf8a73ee8fd61b7ede4.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/cities/_header.self-a5f6045204828fd44298ce13ef8c9d7c14e6062e6969751040e36456437d4271.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/cities/_main.self-cfc17fadc9f9fdd37d7b6384fcba57d7d7488c037ee508eea08661376fb6e6ec.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/cities/_new_item.self-545208d66ddae199570074ff91c1a1cc886f95331232ddb0cd0a47eca6e2a379.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/notice/_all_notices.self-1fe61fda81ed483d64fc79cdf550600cc33a32d360c7962986ee6a04e02fd358.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/notice/_notice.self-280f50405887ce9fa99ec8eda6f8f42a9a87e14aad1c65715c82035a7dfbbab2.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components/notice/_notices_item.self-c90a52084864b1717e224c6f4deb6ff0fb29774353c88b326dd4d5b00989daa8.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/js/jquery.quicksand.self-70953378e463c0cb9d9494f38b047f5fd299f641dc391692c2c4cfc1f686edf0.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/application.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:20:14 -0300
+Started GET "/images/favicon/favicon-32x32.png" for 127.0.0.1 at 2017-10-04 09:20:15 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon/favicon-32x32.png"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/admin/city_services" for 127.0.0.1 at 2017-10-04 09:20:18 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admin/city_services"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/admin" for 127.0.0.1 at 2017-10-04 09:20:20 -0300
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (39.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/app
+  Rendered admin/index.html.erb within layouts/app (1.1ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251822375480 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251822375480 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 331ms (Views: 126.5ms | ActiveRecord: 118.7ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:20:21 -0300
+Started GET "/api/v1/cities.json" for 127.0.0.1 at 2017-10-04 09:20:21 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:20:21 -0300
+Processing by Api::V1::CitiesController#index as JSON
+  [1m[36mCity Load (17.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Completed 200 OK in 39ms (Views: 2.8ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-10-04 09:22:03 -0300
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/app
+  Rendered admin/index.html.erb within layouts/app (0.6ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251826748480 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251826748480 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 3021ms (Views: 2997.8ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/bootstrap.self-a5ed5c870a228575ac30e418c95f5c06b058f0257bd85dd209413c221a001028.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/font-awesome.self-c22050b989e6c1dda9f233075512bfd7290f5d3aae293d3adddca31cbbf74dce.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/application.self-881ab0321ddeea1e4ee2b2351c1e3af84c9f28f6e94a0035b9597013ccadb42d.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/css/patros.self-f1ba00e82dcbb03403f6b5aa97c88334e02f5731a67a8e4566bdeb6deed72053.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_Item.self-446cf0a07a51840a4d988eac8ff1eba63ddef367aed5fcd14edd8342109482d1.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_admin.self-ba4c908686ec2e849bdb0d386e7d89a6ffc9b2844ed4653b479840281f1881df.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_all_items.self-8cac24d98b55dd0b17d1206986c4711303b84ecb963e5b812273f61ed7864ed5.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_header.self-ee12fff20b56356e7d426c7e524510cfc7935c6ab0f5b3d5fc2a56e92d36e4d7.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_main.self-fa87628f2e3ff785cfeaba9423f28c84162cad1eb03515ae021937766b236912.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_menu.self-4a53cd8ad5370b2391220837162506f17325594cd02398bd3578beb61cb52369.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/_new_item.self-24e6c938187f61fa0e8768d08040f6d6d9d1955b6cfbff39e162cbb1c295d71d.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/cities/_Item.self-f89c435391f8ab9fd21d773f330a8fb47f4ea9d3be21d174cf6aae7a094412e2.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/cities/_all_items.self-f445339e91b92092b4e43b2fdac056fd72fbec78a505a9180e2eae9a209d805f.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/cities/_body.self-3cb8f9bf5021c50335937c8bc12894a976f234a3d3072cf8a73ee8fd61b7ede4.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/cities/_header.self-a5f6045204828fd44298ce13ef8c9d7c14e6062e6969751040e36456437d4271.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/cities/_main.self-cfc17fadc9f9fdd37d7b6384fcba57d7d7488c037ee508eea08661376fb6e6ec.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/cities/_new_item.self-545208d66ddae199570074ff91c1a1cc886f95331232ddb0cd0a47eca6e2a379.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/notice/_all_notices.self-1fe61fda81ed483d64fc79cdf550600cc33a32d360c7962986ee6a04e02fd358.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/notice/_notice.self-280f50405887ce9fa99ec8eda6f8f42a9a87e14aad1c65715c82035a7dfbbab2.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components/notice/_notices_item.self-c90a52084864b1717e224c6f4deb6ff0fb29774353c88b326dd4d5b00989daa8.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/js/jquery.quicksand.self-70953378e463c0cb9d9494f38b047f5fd299f641dc391692c2c4cfc1f686edf0.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/application.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+Processing by Api::V1::ItemsController#index as JSON
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:22:06 -0300
+  [1m[36mItem Load (15.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 66ms (Views: 18.1ms | ActiveRecord: 18.3ms)
+
+
+Started GET "/images/favicon/favicon-32x32.png" for 127.0.0.1 at 2017-10-04 09:22:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon/favicon-32x32.png"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/admin" for 127.0.0.1 at 2017-10-04 09:23:17 -0300
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/app
+  Rendered admin/index.html.erb within layouts/app (0.9ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251828835060 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251828835060 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 1446ms (Views: 1425.0ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/bootstrap.self-a5ed5c870a228575ac30e418c95f5c06b058f0257bd85dd209413c221a001028.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/application.self-881ab0321ddeea1e4ee2b2351c1e3af84c9f28f6e94a0035b9597013ccadb42d.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/css/patros.self-f1ba00e82dcbb03403f6b5aa97c88334e02f5731a67a8e4566bdeb6deed72053.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/font-awesome.self-c22050b989e6c1dda9f233075512bfd7290f5d3aae293d3adddca31cbbf74dce.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_Item.self-446cf0a07a51840a4d988eac8ff1eba63ddef367aed5fcd14edd8342109482d1.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_admin.self-11aca6e6fc454e849359a3b36556cc3c27493c089ea0b281fcf3ae201b2b1e22.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_all_items.self-8cac24d98b55dd0b17d1206986c4711303b84ecb963e5b812273f61ed7864ed5.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_header.self-ee12fff20b56356e7d426c7e524510cfc7935c6ab0f5b3d5fc2a56e92d36e4d7.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_headeradmin.self-e61aa5712c7e2c40051104f6f3c4f46ff897c83dd858beeaca836f52ee3a1693.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_main.self-fa87628f2e3ff785cfeaba9423f28c84162cad1eb03515ae021937766b236912.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_menu.self-4a53cd8ad5370b2391220837162506f17325594cd02398bd3578beb61cb52369.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/_new_item.self-24e6c938187f61fa0e8768d08040f6d6d9d1955b6cfbff39e162cbb1c295d71d.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/cities/_Item.self-f89c435391f8ab9fd21d773f330a8fb47f4ea9d3be21d174cf6aae7a094412e2.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/cities/_all_items.self-f445339e91b92092b4e43b2fdac056fd72fbec78a505a9180e2eae9a209d805f.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:18 -0300
+Started GET "/assets/components/cities/_body.self-3cb8f9bf5021c50335937c8bc12894a976f234a3d3072cf8a73ee8fd61b7ede4.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components/cities/_header.self-a5f6045204828fd44298ce13ef8c9d7c14e6062e6969751040e36456437d4271.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components/cities/_main.self-cfc17fadc9f9fdd37d7b6384fcba57d7d7488c037ee508eea08661376fb6e6ec.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components/cities/_new_item.self-545208d66ddae199570074ff91c1a1cc886f95331232ddb0cd0a47eca6e2a379.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components/notice/_all_notices.self-1fe61fda81ed483d64fc79cdf550600cc33a32d360c7962986ee6a04e02fd358.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components/notice/_notice.self-280f50405887ce9fa99ec8eda6f8f42a9a87e14aad1c65715c82035a7dfbbab2.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components/notice/_notices_item.self-c90a52084864b1717e224c6f4deb6ff0fb29774353c88b326dd4d5b00989daa8.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/js/jquery.quicksand.self-70953378e463c0cb9d9494f38b047f5fd299f641dc391692c2c4cfc1f686edf0.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/application.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+Started GET "/images/favicon/favicon-32x32.png" for 127.0.0.1 at 2017-10-04 09:23:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon/favicon-32x32.png"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/admin" for 127.0.0.1 at 2017-10-04 09:23:40 -0300
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/app
+  Rendered admin/index.html.erb within layouts/app (0.6ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251832535200 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251832535200 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 862ms (Views: 829.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/bootstrap.self-a5ed5c870a228575ac30e418c95f5c06b058f0257bd85dd209413c221a001028.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/font-awesome.self-c22050b989e6c1dda9f233075512bfd7290f5d3aae293d3adddca31cbbf74dce.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/css/patros.self-f1ba00e82dcbb03403f6b5aa97c88334e02f5731a67a8e4566bdeb6deed72053.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/cities.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/application.self-881ab0321ddeea1e4ee2b2351c1e3af84c9f28f6e94a0035b9597013ccadb42d.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_Item.self-446cf0a07a51840a4d988eac8ff1eba63ddef367aed5fcd14edd8342109482d1.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_admin.self-11aca6e6fc454e849359a3b36556cc3c27493c089ea0b281fcf3ae201b2b1e22.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_all_items.self-8cac24d98b55dd0b17d1206986c4711303b84ecb963e5b812273f61ed7864ed5.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_headeradmin.self-368a6634850c0e089010889509c5cd6c235aa54f27bb271c00d8e3598c8d00b8.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_main.self-fa87628f2e3ff785cfeaba9423f28c84162cad1eb03515ae021937766b236912.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_header.self-ee12fff20b56356e7d426c7e524510cfc7935c6ab0f5b3d5fc2a56e92d36e4d7.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_menu.self-4a53cd8ad5370b2391220837162506f17325594cd02398bd3578beb61cb52369.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/_new_item.self-24e6c938187f61fa0e8768d08040f6d6d9d1955b6cfbff39e162cbb1c295d71d.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/cities/_Item.self-f89c435391f8ab9fd21d773f330a8fb47f4ea9d3be21d174cf6aae7a094412e2.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/cities/_all_items.self-f445339e91b92092b4e43b2fdac056fd72fbec78a505a9180e2eae9a209d805f.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/cities/_body.self-3cb8f9bf5021c50335937c8bc12894a976f234a3d3072cf8a73ee8fd61b7ede4.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/cities/_header.self-a5f6045204828fd44298ce13ef8c9d7c14e6062e6969751040e36456437d4271.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/cities/_main.self-cfc17fadc9f9fdd37d7b6384fcba57d7d7488c037ee508eea08661376fb6e6ec.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/cities/_new_item.self-545208d66ddae199570074ff91c1a1cc886f95331232ddb0cd0a47eca6e2a379.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/notice/_all_notices.self-1fe61fda81ed483d64fc79cdf550600cc33a32d360c7962986ee6a04e02fd358.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/notice/_notice.self-280f50405887ce9fa99ec8eda6f8f42a9a87e14aad1c65715c82035a7dfbbab2.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components/notice/_notices_item.self-c90a52084864b1717e224c6f4deb6ff0fb29774353c88b326dd4d5b00989daa8.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/js/jquery.quicksand.self-70953378e463c0cb9d9494f38b047f5fd299f641dc391692c2c4cfc1f686edf0.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/cities.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/welcome.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/application.self-538d6440534fa5f615e8a26932792a82a2e4a33a97886e2d815eab8fc216d415.js?body=1" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:23:41 -0300
+Started GET "/images/favicon/favicon-32x32.png" for 127.0.0.1 at 2017-10-04 09:23:42 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon/favicon-32x32.png"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/matheus/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/admin" for 127.0.0.1 at 2017-10-04 09:23:43 -0300
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/app
+  Rendered admin/index.html.erb within layouts/app (0.6ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251826021400 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251826021400 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 82ms (Views: 78.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:23:43 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:23:43 -0300
+Started GET "/site" for 127.0.0.1 at 2017-10-04 09:23:44 -0300
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering site/index.html.erb within layouts/app
+  Rendered site/index.html.erb within layouts/app (0.6ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251786160480 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251786160480 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 88ms (Views: 76.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:23:45 -0300
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2017-10-04 09:23:45 -0300
+Processing by Api::V1::ItemsController#index as JSON
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:23:45 -0300
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+Completed 200 OK in 19ms (Views: 3.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/city" for 127.0.0.1 at 2017-10-04 09:23:45 -0300
+Processing by CityController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering city/index.html.erb within layouts/app
+  Rendered city/index.html.erb within layouts/app (0.7ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251833271960 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251833271960 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 75ms (Views: 66.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:23:46 -0300
+Started GET "/api/v1/cities.json" for 127.0.0.1 at 2017-10-04 09:23:46 -0300
+Processing by Api::V1::CitiesController#index as JSON
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:23:46 -0300
+  [1m[36mCity Load (0.5ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Completed 200 OK in 27ms (Views: 3.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-10-04 09:23:47 -0300
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/app
+  Rendered admin/index.html.erb within layouts/app (0.8ms)
+DEPRECATION WARNING: The asset "favicon/favicon-32x32.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251740488780 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:11)
+DEPRECATION WARNING: The asset "favicon/apple-touch-icon-152x152.png" is not present in the asset pipeline.Falling back to an asset that may be in the public folder.
+This behavior is deprecated and will be removed.
+To bypass the asset pipeline and preserve this behavior,
+use the `skip_pipeline: true` option.
+ (called from _app_views_layouts_app_html_erb___3929604316552029595_70251740488780 at /home/matheus/sites/rails/combateaseca/app/views/layouts/app.html.erb:14)
+  Rendered shared/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 76ms (Views: 70.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 09:23:47 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-04 09:23:47 -0300
