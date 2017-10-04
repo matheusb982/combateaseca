@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   root to: 'welcome#index'
 
   resources :welcome, :only => [:index]
+  get "welcome/about" => "welcome#about", as: "about"
+  get "welcome/cities" => "welcome#cities", as: "cities"
+  get "welcome/contact" => "welcome#contact", as: "contact"
+  get "welcome/gallery" => "welcome#gallery", as: "gallery"
+  get "welcome/notice" => "welcome#notice", as: "notice"
   resources :city, :only => [:index]
   resources :site, :only => [:index]
   resources :reports

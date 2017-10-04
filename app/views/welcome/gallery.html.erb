@@ -1,0 +1,62 @@
+<section id="portfolio1">
+  <div class="container">
+    <div class="row">
+    	<div class="text-center">
+    	<h2>Galeria</h2>
+    	 <%= image_tag("images/short.png",alt: "about",class:"img-responsive displayed" ) %>
+    	</div>
+
+    	<ul class="port2">
+    		<li data-type="development" data-id="id-1" class="port3">
+    		    <a href="#" id="development1"><%= image_tag("1.jpg",alt: "img09") %></a>
+        </li>
+    		<li data-type="webdesign" data-id="id-2" class="port3">
+    		    <a href="#" id="webdesign1"><%= image_tag("2.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="mobileapps" data-id="id-3" class="port3">
+    		    <a href="#" id="mobileapps1"><%= image_tag("3.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="development" data-id="id-4" class="port3">
+    		    <a href="#" id="development2"><%= image_tag("4.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="webdesign" data-id="id-5" class="port3">
+    		    <a href="#" id="webdesign2"><%= image_tag("5.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="mobileapps" data-id="id-6" class="port3">
+    		    <a href="#" id="mobileapps2"><%= image_tag("6.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="mobileapps" data-id="id-6" class="port3">
+    		    <a href="#" id="mobileapps2"><%= image_tag("7.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="mobileapps" data-id="id-6" class="port3">
+    		    <a href="#" id="mobileapps2"><%= image_tag("8.jpg",alt: "img09") %></a>
+    		</li>
+    		<li data-type="mobileapps" data-id="id-6" class="port3">
+    		    <a href="#" id="mobileapps2"><%= image_tag("9.jpg",alt: "img09") %></a>
+    		</li>
+    	</ul>
+  	</div>
+  </div>
+</section>
+
+<%= content_for :javascripts do %>
+function gallery(){};
+
+var $itemsHolder = $('ul.port2');
+var $itemsClone = $itemsHolder.clone();
+var $filterClass = "";
+$('ul.filter li').click(function(e) {
+e.preventDefault();
+$filterClass = $(this).attr('data-value');
+  if($filterClass == 'all'){ var $filters = $itemsClone.find('li'); }
+  else { var $filters = $itemsClone.find('li[data-type='+ $filterClass +']'); }
+  $itemsHolder.quicksand(
+    $filters,
+    { duration: 1000 },
+    gallery
+    );
+});
+
+$(document).ready(gallery);
+
+<% end %>

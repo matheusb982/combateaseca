@@ -7986,6 +7986,7 @@ Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 
 Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
 Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 21:40:18 -0300
 Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:40:22 -0300
+<<<<<<< Updated upstream
 DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/matheus/sites/rails/combateaseca/config/initializers/callback_terminator.rb:1)
 Started GET "/" for 127.0.0.1 at 2017-10-03 21:55:57 -0300
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -8065,3 +8066,1276 @@ Started GET "/assets/images/blog1-03541bb2d651b0a000a970e2dd63b2c86c345cbc777033
 Started GET "/assets/images/blog2-4e3a38d9fa8354c4eb8412f375a6d6f8c984bf25c8ae54c426a5d7f980a29dce.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
 Started GET "/assets/images/blog3-629fef162ee0c5fe404ae2881a60f6113b515e24d02ff03deacd3249879f8010.jpg" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
 Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:56:40 -0300
+=======
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 21:45:36 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 21:45:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 184ms (Views: 176.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 21:45:41 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 21:45:41 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 21:45:41 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 21:45:41 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 21:45:41 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 21:45:42 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 21:45:52 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:01:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 248ms (Views: 239.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:01:24 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:01:24 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:01:24 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:01:24 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:01:24 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:01:26 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:16:51 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:21:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (82.1ms)
+Completed 200 OK in 276ms (Views: 271.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:21:17 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:21:17 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:21:17 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:21:17 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:21:17 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:21:18 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:21:18 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:21:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (60.5ms)
+Completed 200 OK in 340ms (Views: 330.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:21:37 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:21:37 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:21:37 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:21:37 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:21:37 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:21:37 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:21:38 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (39.6ms)
+Completed 200 OK in 171ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:21:45 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:21:46 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:21:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (39.3ms)
+Completed 200 OK in 174ms (Views: 168.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:21:53 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:22:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 208ms (Views: 202.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:22:06 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:22:06 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:22:06 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:22:06 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:22:06 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:22:06 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:22:07 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:22:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 184ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:22:12 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:27:20 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4207.8ms)
+Completed 200 OK in 5050ms (Views: 5034.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:27:26 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:27:26 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:27:27 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:27:27 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:27:27 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:27:31 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:29:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 200ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:29:03 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:29:03 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:29:03 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:29:03 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:29:04 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:29:04 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:29:19 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2324.1ms)
+Completed 200 OK in 2654ms (Views: 2649.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:29:22 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:29:22 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:29:22 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:29:22 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:29:22 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:29:22 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:29:49 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (53.1ms)
+Completed 200 OK in 197ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:29:49 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:29:50 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:29:50 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:29:50 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:29:50 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:29:50 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:29:50 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:30:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (45.1ms)
+Completed 200 OK in 210ms (Views: 197.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:30:01 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:30:01 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:30:02 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:30:02 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:30:02 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:30:02 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:30:02 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:30:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (59.4ms)
+Completed 200 OK in 286ms (Views: 281.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:30:59 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:30:59 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:31:00 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:31:00 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:31:00 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:31:00 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:31:00 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:31:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (77.2ms)
+Completed 200 OK in 247ms (Views: 242.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:31:11 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:31:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (63.3ms)
+Completed 200 OK in 216ms (Views: 206.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:31:16 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:31:16 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:31:16 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:31:16 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:31:16 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:31:16 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:31:17 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:32:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 4406ms (Views: 4400.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/js/map.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-10-03 22:32:59 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:33:00 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:33:00 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:33:00 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:33:00 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:33:00 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:33:00 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:33:01 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:37:05 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6231.0ms)
+Completed 200 OK in 6708ms (Views: 6686.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:37:13 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:37:13 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:37:13 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:37:14 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:37:14 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:37:14 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:37:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (48.1ms)
+Completed 200 OK in 296ms (Views: 289.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:37:34 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:37:34 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:37:34 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:37:34 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:37:34 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:37:34 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:37:52 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (963.5ms)
+Completed 200 OK in 1301ms (Views: 1296.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:37:54 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:37:54 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:37:54 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:37:54 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:37:54 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:37:54 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:38:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 2481ms (Views: 2476.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:38:23 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:38:23 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:38:23 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:38:23 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:38:23 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:38:24 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:38:24 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:41:43 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3480.6ms)
+Completed 200 OK in 3697ms (Views: 3692.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:41:47 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:41:47 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:41:47 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:41:47 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:41:48 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:41:49 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:41:50 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:41:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 192ms (Views: 184.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:41:53 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:41:53 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:41:54 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:41:54 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:41:54 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:41:54 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:41:55 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:42:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (41.7ms)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:42:09 -0300
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 251ms (Views: 241.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 202ms (Views: 193.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:42:11 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:42:11 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:42:11 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:42:11 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:42:11 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:42:11 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:42:12 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:44:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (73.9ms)
+Completed 200 OK in 377ms (Views: 366.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:44:59 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:44:59 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:44:59 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:44:59 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:44:59 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:44:59 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:46:28 -0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1022.3ms)
+Completed 200 OK in 1391ms (Views: 1385.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:46:30 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:46:30 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:46:30 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:46:30 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:46:30 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:46:30 -0300
+Started GET "/city" for 127.0.0.1 at 2017-10-03 22:46:37 -0300
+Processing by CityController#index as HTML
+  [1m[36mUser Load (7.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering city/index.html.erb within layouts/application
+  Rendered city/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 336ms (Views: 129.3ms | ActiveRecord: 36.6ms)
+
+
+Started GET "/city" for 127.0.0.1 at 2017-10-03 22:47:21 -0300
+Processing by CityController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering city/index.html.erb within layouts/application
+  Rendered city/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 155ms (Views: 147.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/cities.json" for 127.0.0.1 at 2017-10-03 22:47:22 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:47:23 -0300
+Processing by Api::V1::CitiesController#index as JSON
+  [1m[36mCity Load (17.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Completed 200 OK in 117ms (Views: 34.8ms | ActiveRecord: 23.1ms)
+
+
+Started GET "/city" for 127.0.0.1 at 2017-10-03 22:48:00 -0300
+Processing by CityController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering city/index.html.erb within layouts/application
+  Rendered city/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 123ms (Views: 114.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-03 22:56:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 174ms (Views: 169.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 22:56:20 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 22:56:20 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 22:56:20 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 22:56:20 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 22:56:20 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 22:56:22 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 22:56:23 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:02:43 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1197.4ms)
+Completed 500 Internal Server Error in 1376ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_menu with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/media/will/sweettecnologia/job/sweet/combateaseca/app/views"
+  * "/home/will/.rvm/gems/ruby-2.2.2/gems/devise-4.3.0/app/views"
+  * "/home/will/.rvm/gems/ruby-2.2.2/gems/devise-i18n-1.2.0/app/views"
+):
+    17: 	</head>
+    18: 
+    19: 	<body data-spy="scroll">
+    20:     <%= render "shared/menu"%>
+    21:     <%= yield %>
+    22: 
+    23: 
+  
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___2597545269782202087_201788240520'
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:03:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (163.7ms)
+  Rendered shared/_menu.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 554ms (Views: 543.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 23:03:11 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:03:11 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:03:11 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 23:03:11 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 23:03:11 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 23:03:13 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:03:16 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:04:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (3.2ms) [cache miss]
+Completed 200 OK in 200ms (Views: 185.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:04:03 -0300
+Started GET "/assets/images/unsplash2.jpg" for 127.0.0.1 at 2017-10-03 23:04:03 -0300
+Started GET "/assets/images/unsplash3.jpg" for 127.0.0.1 at 2017-10-03 23:04:03 -0300
+Started GET "/assets/images/unsplash4.jpg" for 127.0.0.1 at 2017-10-03 23:04:03 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:04:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (4.5ms) [cache miss]
+Completed 200 OK in 176ms (Views: 168.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:04:39 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:06:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_menu.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 6337ms (Views: 6330.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-4f7d1d95e01ad96d40e6521e1c48064a15944ad55077616fce7a0296dcf12051.css?body=1" for 127.0.0.1 at 2017-10-03 23:06:49 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:06:50 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:06:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (8.7ms) [cache miss]
+Completed 200 OK in 357ms (Views: 351.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:06:52 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:08:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+Completed 200 OK in 2066ms (Views: 2060.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-7d1d249fd8c09914b92598351680dea54a185da49a1ecc03205b429ef3e794ba.css?body=1" for 127.0.0.1 at 2017-10-03 23:08:26 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:08:27 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:08:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 2140ms (Views: 2134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-c5d6b07e95b8831c77532d7a413016a4b312b04db0e3d7bb5110e8877bb60c23.css?body=1" for 127.0.0.1 at 2017-10-03 23:08:40 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:08:40 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:09:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (5.8ms) [cache miss]
+Completed 200 OK in 2288ms (Views: 2282.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-40261b753bc991786a9686f1ace8ae4e86004a4d9363884b5f0c9a1ac42d1ad2.css?body=1" for 127.0.0.1 at 2017-10-03 23:09:06 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:09:07 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:09:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (2.6ms) [cache miss]
+Completed 200 OK in 2136ms (Views: 2130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-3391ec01a323dbb00296dcedded195dc11b8790ff9ac6f00d84d5a0e8b0a70fc.css?body=1" for 127.0.0.1 at 2017-10-03 23:09:32 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:09:32 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:10:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered shared/_menu.html.erb (4.3ms) [cache miss]
+Completed 200 OK in 240ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:10:33 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:11:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+  Rendered shared/_menu.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 154ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:11:03 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:16:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered shared/_menu.html.erb (4.8ms) [cache miss]
+Completed 200 OK in 2247ms (Views: 2242.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-19e23a8b0831bef55ae84ca3d044cb8a0d48b1e173464ed842b27f89cc2861ce.css?body=1" for 127.0.0.1 at 2017-10-03 23:16:32 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:16:33 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:17:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_menu.html.erb (8.0ms) [cache miss]
+Completed 200 OK in 2076ms (Views: 2071.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-fa33661ece398df1ab690b6b7888604a3be5cb37fe1cc12b824c492750fb4fe5.css?body=1" for 127.0.0.1 at 2017-10-03 23:17:02 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:17:03 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:17:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (3.2ms) [cache miss]
+Completed 200 OK in 2205ms (Views: 2199.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-5d98a9b86804e2be5dd0b7fec078f06f02df9a4096234c7acb5e7242a5c0446a.css?body=1" for 127.0.0.1 at 2017-10-03 23:17:14 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:17:14 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:17:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered shared/_menu.html.erb (3.8ms) [cache miss]
+Completed 200 OK in 2177ms (Views: 2172.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-e951b68d21f61586876e937760adf7783e31a627875caa3e98bd702d2c5cced5.css?body=1" for 127.0.0.1 at 2017-10-03 23:17:48 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:17:48 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:19:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered shared/_menu.html.erb (3.6ms) [cache miss]
+Completed 200 OK in 2110ms (Views: 2103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/patros.self-f1ba00e82dcbb03403f6b5aa97c88334e02f5731a67a8e4566bdeb6deed72053.css?body=1" for 127.0.0.1 at 2017-10-03 23:19:21 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:19:21 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:19:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.8ms)
+  Rendered shared/_menu.html.erb (2.8ms) [cache miss]
+Completed 200 OK in 140ms (Views: 135.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:19:58 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:20:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+Completed 200 OK in 143ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:20:19 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:20:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+  Rendered shared/_menu.html.erb (5.9ms) [cache miss]
+Completed 200 OK in 163ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:20:34 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:20:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered shared/_menu.html.erb (2.8ms) [cache miss]
+Completed 200 OK in 137ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:20:43 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:21:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+Completed 200 OK in 1081ms (Views: 1077.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a2ef1ef96bcbd1342063ad43d76ce467d5d24e1b6ffae5d37b5095faf3db46e5.css?body=1" for 127.0.0.1 at 2017-10-03 23:21:43 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:21:44 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:22:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.4ms)
+  Rendered shared/_menu.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 1202ms (Views: 1195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ea473ac2672f6124d657e9bccdde22d0d9c575364a2a2eaa7e97f18b9b2fbb7b.css?body=1" for 127.0.0.1 at 2017-10-03 23:22:30 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:22:30 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:23:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.3ms)
+  Rendered shared/_menu.html.erb (3.1ms) [cache miss]
+Completed 200 OK in 1105ms (Views: 1100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5ee677ab6b3a861dc50d612920e7917854931021634d6e95d4dc64a2bd9c815d.css?body=1" for 127.0.0.1 at 2017-10-03 23:23:39 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:23:39 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:23:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+  Rendered shared/_menu.html.erb (2.6ms) [cache miss]
+Completed 200 OK in 134ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:23:57 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:24:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+  Rendered shared/_menu.html.erb (4.8ms) [cache miss]
+Completed 200 OK in 1103ms (Views: 1097.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f56a18ac35e5c8345ab4e89c38666e80a5c6e49c660fdc9d65376bc0bfe95f11.css?body=1" for 127.0.0.1 at 2017-10-03 23:24:08 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:24:08 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:24:14 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:24:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered shared/_menu.html.erb (3.3ms) [cache miss]
+Completed 200 OK in 1104ms (Views: 1097.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d0668ca4338df5a52dd0754a315ab4c0e0eec9c8a524fc12f66dc3f850ff68a8.css?body=1" for 127.0.0.1 at 2017-10-03 23:24:36 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:24:37 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:24:39 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:25:03 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+Completed 200 OK in 1106ms (Views: 1100.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d6bea73d7930202c7a0657ecc14e1f272a3f4386fcb4cb1aa67d7e3f2ecf67dc.css?body=1" for 127.0.0.1 at 2017-10-03 23:25:04 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:25:05 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:25:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.6ms)
+  Rendered shared/_menu.html.erb (8.7ms) [cache miss]
+Completed 200 OK in 293ms (Views: 286.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:25:17 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:26:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+  Rendered shared/_menu.html.erb (3.3ms) [cache miss]
+Completed 200 OK in 1137ms (Views: 1132.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for 127.0.0.1 at 2017-10-03 23:26:02 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:26:03 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:26:30 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (3.0ms) [cache miss]
+Completed 200 OK in 148ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:26:31 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:26:37 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:26:47 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:26:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (6.8ms) [cache miss]
+  Rendered shared/_menu.html.erb (4.9ms) [cache miss]
+Completed 200 OK in 6090ms (Views: 6084.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5521ms (Views: 5516.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:26:54 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:29:46 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+Completed 200 OK in 3648ms (Views: 3641.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-efe52e1ea54b913c8fa6515f4293c5de030beccd98a45a8dfa41116d39936f8a.css?body=1" for 127.0.0.1 at 2017-10-03 23:29:50 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:29:50 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:30:48 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (3.1ms) [cache miss]
+Completed 200 OK in 140ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:30:49 -0300
+Started GET "/" for 127.0.0.1 at 2017-10-03 23:32:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (2.4ms) [cache miss]
+Completed 200 OK in 124ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:32:36 -0300
+Started GET "/asd" for 127.0.0.1 at 2017-10-03 23:32:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/asd"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+Started GET "/rails/info/routes?path=we" for 127.0.0.1 at 2017-10-03 23:32:45 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"we"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=we" for 127.0.0.1 at 2017-10-03 23:33:13 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"we"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=we" for 127.0.0.1 at 2017-10-03 23:34:35 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"we"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/asd" for 127.0.0.1 at 2017-10-03 23:34:36 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/asd"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+Started GET "/rails/info/routes?path=we" for 127.0.0.1 at 2017-10-03 23:34:38 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"we"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/cities" for 127.0.0.1 at 2017-10-03 23:37:40 -0300
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (26.6ms)
+  Rendered shared/_menu.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 151ms (Views: 146.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:37:41 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:37:41 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 23:37:42 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:37:43 -0300
+Started GET "/welcome/about" for 127.0.0.1 at 2017-10-03 23:44:50 -0300
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (3.2ms)
+  Rendered shared/_menu.html.erb (4.4ms) [cache miss]
+Completed 200 OK in 160ms (Views: 155.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:45:01 -0300
+Started GET "/welcome/about" for 127.0.0.1 at 2017-10-03 23:45:10 -0300
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (7.4ms)
+  Rendered shared/_menu.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 127ms (Views: 120.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:45:13 -0300
+Started GET "/welcome/about" for 127.0.0.1 at 2017-10-03 23:45:40 -0300
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (7.8ms)
+  Rendered shared/_menu.html.erb (2.6ms) [cache miss]
+Completed 200 OK in 164ms (Views: 159.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:45:42 -0300
+Started GET "/welcome/gallery" for 127.0.0.1 at 2017-10-03 23:46:06 -0300
+Processing by WelcomeController#gallery as HTML
+  Rendering welcome/gallery.html.erb within layouts/application
+  Rendered welcome/gallery.html.erb within layouts/application (31.3ms)
+  Rendered shared/_menu.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 176ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:46:07 -0300
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:46:07 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:46:08 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 23:46:08 -0300
+Started GET "/welcome/" for 127.0.0.1 at 2017-10-03 23:47:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered shared/_menu.html.erb (2.6ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 174ms (Views: 168.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:47:52 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:47:52 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:47:53 -0300
+Started GET "/welcome/gallery" for 127.0.0.1 at 2017-10-03 23:48:19 -0300
+Processing by WelcomeController#gallery as HTML
+  Rendering welcome/gallery.html.erb within layouts/application
+  Rendered welcome/gallery.html.erb within layouts/application (33.4ms)
+  Rendered shared/_menu.html.erb (3.8ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 204ms (Views: 192.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:48:20 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:48:21 -0300
+Started GET "/welcome/notice" for 127.0.0.1 at 2017-10-03 23:49:21 -0300
+Processing by WelcomeController#notice as HTML
+  Rendering welcome/notice.html.erb within layouts/application
+  Rendered welcome/notice.html.erb within layouts/application (12.2ms)
+  Rendered shared/_menu.html.erb (2.3ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 157ms (Views: 151.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:49:21 -0300
+Started GET "/welcome/notice" for 127.0.0.1 at 2017-10-03 23:56:09 -0300
+Processing by WelcomeController#notice as HTML
+  Rendering welcome/notice.html.erb within layouts/application
+  Rendered welcome/notice.html.erb within layouts/application (11.5ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 173ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:56:10 -0300
+Started GET "/welcome/gallery" for 127.0.0.1 at 2017-10-03 23:56:16 -0300
+Processing by WelcomeController#gallery as HTML
+  Rendering welcome/gallery.html.erb within layouts/application
+  Rendered welcome/gallery.html.erb within layouts/application (27.6ms)
+  Rendered shared/_menu.html.erb (2.2ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 170ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:56:17 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:56:18 -0300
+Started GET "/welcome/" for 127.0.0.1 at 2017-10-03 23:56:24 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_menu.html.erb (2.3ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 133ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:56:25 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-03 23:56:25 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:56:26 -0300
+Started GET "/welcome/cities" for 127.0.0.1 at 2017-10-03 23:56:32 -0300
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (2.4ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 130ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:56:33 -0300
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-03 23:56:33 -0300
+Started GET "/city" for 127.0.0.1 at 2017-10-03 23:56:47 -0300
+Processing by CityController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering city/index.html.erb within layouts/application
+  Rendered city/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_menu.html.erb (2.5ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 182ms (Views: 130.2ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:56:48 -0300
+Started GET "/api/v1/cities.json" for 127.0.0.1 at 2017-10-03 23:56:48 -0300
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-10-03 23:56:48 -0300
+Processing by Api::V1::CitiesController#index as JSON
+  [1m[36mCity Load (0.9ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+Completed 200 OK in 65ms (Views: 25.6ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/welcome/contact" for 127.0.0.1 at 2017-10-03 23:57:31 -0300
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (5.8ms)
+  Rendered shared/_menu.html.erb (2.4ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 139ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-03 23:57:31 -0300
+Started GET "/welcome/asd" for 127.0.0.1 at 2017-10-03 23:57:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/asd"):
+  
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/home/will/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+Started GET "/rails/info/routes?path=we" for 127.0.0.1 at 2017-10-03 23:57:56 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"we"}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=wel" for 127.0.0.1 at 2017-10-03 23:57:57 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"wel"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=welroo" for 127.0.0.1 at 2017-10-03 23:59:48 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"welroo"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=r" for 127.0.0.1 at 2017-10-03 23:59:49 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"r"}
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=roo" for 127.0.0.1 at 2017-10-03 23:59:50 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"roo"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=r" for 127.0.0.1 at 2017-10-03 23:59:53 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"r"}
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=wel" for 127.0.0.1 at 2017-10-03 23:59:54 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"wel"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-04 00:03:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered shared/_menu.html.erb (3.6ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 140ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 00:03:11 -0300
+Started GET "/assets/images/unsplash1.jpg" for 127.0.0.1 at 2017-10-04 00:03:11 -0300
+Started GET "/welcome/about" for 127.0.0.1 at 2017-10-04 00:03:15 -0300
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (7.6ms)
+  Rendered shared/_menu.html.erb (4.5ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 167ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 00:03:16 -0300
+Started GET "/welcome/gallery" for 127.0.0.1 at 2017-10-04 00:03:17 -0300
+Processing by WelcomeController#gallery as HTML
+  Rendering welcome/gallery.html.erb within layouts/application
+  Rendered welcome/gallery.html.erb within layouts/application (25.0ms)
+  Rendered shared/_menu.html.erb (4.3ms) [cache miss]
+  Rendered shared/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 180ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/fontawesome-webfont.woff2?v=4.7.0" for 127.0.0.1 at 2017-10-04 00:03:18 -0300
+Started GET "/welcome/notice" for 127.0.0.1 at 2017-10-04 00:03:20 -0300
+Processing by WelcomeController#notice as HTML
+  Rendering welcome/notice.html.erb within layouts/application
+  Rendered welcome/notice.html.erb within layouts/application (14.7ms)
+  Rendered shared/_menu.html.erb (3.3ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 165ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/cities" for 127.0.0.1 at 2017-10-04 00:03:22 -0300
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (1.3ms)
+  Rendered shared/_menu.html.erb (5.1ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 169ms (Views: 164.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-04 00:03:23 -0300
+Started GET "/welcome/cities" for 127.0.0.1 at 2017-10-04 00:03:35 -0300
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (8.5ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 149ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-04 00:03:36 -0300
+Started GET "/welcome/cities" for 127.0.0.1 at 2017-10-04 00:04:05 -0300
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (4.3ms)
+  Rendered shared/_menu.html.erb (3.9ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 157ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-04 00:04:06 -0300
+Started GET "/welcome/cities" for 127.0.0.1 at 2017-10-04 00:04:16 -0300
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (4.0ms) [cache miss]
+  Rendered shared/_footer.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 137ms (Views: 132.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/marker.png" for 127.0.0.1 at 2017-10-04 00:04:17 -0300
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /media/will/sweettecnologia/job/sweet/combateaseca/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 192.168.0.2 at 2017-10-04 00:05:43 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+  Rendered shared/_menu.html.erb (3.5ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 3625ms (Views: 3620.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for 192.168.0.2 at 2017-10-04 00:05:50 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/css/patros.self-f1ba00e82dcbb03403f6b5aa97c88334e02f5731a67a8e4566bdeb6deed72053.css?body=1" for 192.168.0.2 at 2017-10-04 00:05:50 -0300
+Started GET "/assets/reports.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.0.2 at 2017-10-04 00:05:50 -0300
+Started GET "/assets/images/logo-c6487ea8eb1f5b3f8b8283618f67934a0789cd433713a62fee878fd2da1705c8.png" for 192.168.0.2 at 2017-10-04 00:05:50 -0300
+Started GET "/assets/reports.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.0.2 at 2017-10-04 00:05:50 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/welcome.self-efe52e1ea54b913c8fa6515f4293c5de030beccd98a45a8dfa41116d39936f8a.css?body=1" for 192.168.0.2 at 2017-10-04 00:05:50 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/images/unsplash1.jpg" for 192.168.0.2 at 2017-10-04 00:05:51 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/welcome/about" for 192.168.0.2 at 2017-10-04 00:06:04 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (11.5ms)
+  Rendered shared/_menu.html.erb (6.4ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 157ms (Views: 152.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 192.168.0.2 at 2017-10-04 00:06:06 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/welcome/gallery" for 192.168.0.2 at 2017-10-04 00:06:11 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#gallery as HTML
+  Rendering welcome/gallery.html.erb within layouts/application
+  Rendered welcome/gallery.html.erb within layouts/application (29.2ms)
+  Rendered shared/_menu.html.erb (2.9ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 187ms (Views: 181.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 192.168.0.2 at 2017-10-04 00:06:13 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/welcome/notice" for 192.168.0.2 at 2017-10-04 00:06:18 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#notice as HTML
+  Rendering welcome/notice.html.erb within layouts/application
+  Rendered welcome/notice.html.erb within layouts/application (16.8ms)
+  Rendered shared/_menu.html.erb (9.2ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 190ms (Views: 184.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 192.168.0.2 at 2017-10-04 00:06:19 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/welcome/cities" for 192.168.0.2 at 2017-10-04 00:06:21 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#cities as HTML
+  Rendering welcome/cities.html.erb within layouts/application
+  Rendered welcome/cities.html.erb within layouts/application (0.9ms)
+  Rendered shared/_menu.html.erb (7.4ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 154ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/images/marker.png" for 192.168.0.2 at 2017-10-04 00:06:23 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 192.168.0.2 at 2017-10-04 00:06:24 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/welcome/contact" for 192.168.0.2 at 2017-10-04 00:06:32 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#contact as HTML
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (14.4ms)
+  Rendered shared/_menu.html.erb (2.7ms) [cache miss]
+  Rendered shared/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 232ms (Views: 226.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/all/glyphicons-halflings-regular.woff2" for 192.168.0.2 at 2017-10-04 00:06:35 -0300
+Cannot render console from 192.168.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> Stashed changes
