@@ -1,0 +1,47 @@
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-lg-12">
+          <div class="text-center color-elements">
+          <h2>login </h2>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name),:html => { novalidate: true, id: "contactForm", class:"inline" }) do |f| %>
+            <div class="row">
+              <div class="col-sm-6 height-contact-element">
+                <div class="form-group">
+                  <%= f.input :email, required: false, autofocus: true, wrapper: false,label: false, type: "email", placeholder: "ADMIN@EXEMPLO.COM", input_html: { class: 'form-control custom-labels' }%>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-sm-6 height-contact-element">
+                <div class="form-group">
+                  <%= f.input :password, required: false, wrapper: false,label: false, type: "password", placeholder: "SENHA", input_html: { class: 'form-control custom-labels' }%>
+
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-sm-3 col-xs-6 height-contact-element">
+                <div class="form-group">
+                  <%= button_tag(type: 'submit',data: { disable_with: "AGUARDE..." }, class: "btn btn-md btn-custom btn-noborder-radius") do %>
+                    LOGIN <i class="mdi-content-save"></i>
+                  <% end %>
+                </div>
+              </div>
+              <div class="col-sm-3 col-xs-6 height-contact-element">
+                <div class="form-group">
+                  <div id="response_holder"></div>
+                </div>
+              </div>
+              <div class="col-sm-12 contact-msg">
+              <div id="success"></div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

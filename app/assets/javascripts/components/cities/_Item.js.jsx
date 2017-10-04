@@ -26,8 +26,10 @@ var City = React.createClass({
                     {description}
                 </td>
                 <td>
-                    <button onClick={this.handleEdit}> {this.state.editable ? 'Submit' : 'Editar' } </button>
-                    &nbsp;<button onClick={this.props.handleDelete} >Deletar</button>
+                  <div className='pull-right'>
+                    <button onClick={this.handleEdit} className="btn btn-info"><i className="fa fa-pencil"></i> </button>
+                    &nbsp;<button onClick={this.props.handleDelete} className="btn btn-danger"><i className="fa fa-trash"></i></button>
+                  </div>
                 </td>
             </tr>
         )

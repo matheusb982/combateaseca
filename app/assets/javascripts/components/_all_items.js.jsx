@@ -19,16 +19,23 @@ var AllItems = React.createClass({
             });
 
         return(
-            <table className="table table-striped">
-                <thead>
-                  <tr>
-                    <th className="col-md-3">Nome</th>
-                    <th className="col-md-4">Descrição</th>
-                    <th className="col-md-2">Opções</th>
-                  </tr>
-                </thead>
-                {items}
-              </table>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-offset-1 col-md-10">
+                  <table className="table table-striped">
+                      <thead>
+                        <tr>
+                          <th className="col-md-3">Nome</th>
+                          <th className="col-md-4">Descrição</th>
+                          <th className="col-md-2">Opções</th>
+                        </tr>
+                      </thead>
+                      {items}
+                    </table>
+                    <br/><br/><br/>
+                </div>
+              </div>
+            </div>
         )
     }
 });
