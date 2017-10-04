@@ -1,0 +1,40 @@
+<%= simple_form_for( [ resource ] ,:html => { :novalidate => true, :id => "reportform" } ) do |f| %>
+  <div id="basic-form" class="section">
+    <div class="row">
+      <div class="col s12 m12 l8 offset-l2">
+        <div class="card-panel">
+          <h4 class="header1">Cadastro de Beneficiário</h4>
+          <div class="row">
+            <div class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <label for="name" class="active">Nome</label>
+                    <%= f.input :name, wrapper: false,label: false, :type => "text", :placeholder => " " %>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <label for="name" class="active">Descrição</label>
+                    <%= f.input :description, wrapper: false,label: false, :type => "text", :placeholder => " " %>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <label for="name" class="active">Cidade</label>
+                    <%= f.input :city, wrapper: false,label: false, :type => "text", :placeholder => " " %>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                      <%= button_tag(type: 'submit',data: { disable_with: "Salvando" }, class: "btn cyan waves-effect waves-light") do %>
+                        Salvar <i class="mdi-content-save"></i>
+                      <% end %>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,18 @@
+<table class="striped">
+    <thead>
+      <tr>
+        <th data-field="nome">Nome</th>
+        <th data-field="descricao">Cidade</th>
+        <th data-field="opcoes"><%t 'options' %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% collection.order(id: :asc).each do |resource| %>
+          <tr>
+            <td><%= resource.name %></td>
+            <td><%= resource.city %></td>
+            <td> <%= render "actions", :resource => resource %></td>
+          </tr>
+      <% end %>
+    </tbody>
+</table>

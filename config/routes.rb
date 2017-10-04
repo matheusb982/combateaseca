@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :welcome, :only => [:index]
   resources :city, :only => [:index]
   resources :site, :only => [:index]
+  resources :reports
 
     namespace :api do
       namespace :v1 do

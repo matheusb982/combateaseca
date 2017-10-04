@@ -1,5 +1,5 @@
 class CrudController < InheritedResources::Base
-  #before_filter :authenticate_user!, raise: false
+  #before_action :authenticate_user!, raise: false
 
   def show
     redirect_to collection_url
